@@ -3,12 +3,12 @@ document.addEventListener("DOMContentLoaded", function(event)
     
     document.getElementById('add_record').onclick = function()
     {
-        valid = true;
+        var valid = true;
 
-        first_name = document.getElementById('first_name').value;
-        last_name = document.getElementById('last_name').value;
-        email = document.getElementById('email').value;
-        mobile = document.getElementById('mobile').value;
+        var first_name = document.getElementById('first_name').value;
+        var last_name = document.getElementById('last_name').value;
+        var email = document.getElementById('email').value;
+        var mobile = document.getElementById('mobile').value;
 
         if(first_name == '')
         {
